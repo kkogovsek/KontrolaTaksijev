@@ -2,12 +2,19 @@ Struktura projekta
 =====
 
 TaksiSluzba
+
 |- skripte
+
  |-modeli
+
  |-konfiguracija.php
+
 |- sredstva
+
  |-javascript
+
  |-css
+ 
 |- index.php
 
 *	skripte	-	tukaj bodo shranjene vse php skripte, razen index.php
