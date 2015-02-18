@@ -5,11 +5,11 @@ TaksiSluzba
 
 ```
 |- skripte
- |-modeli
- |-konfiguracija.php
+	|-modeli
+	|-konfiguracija.php
 |- sredstva
- |-javascript
- |-css
+	|-javascript
+	|-css
 |- index.php
 ```
 
