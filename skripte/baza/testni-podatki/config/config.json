@@ -1,22 +1,32 @@
 {
-	"server":"172.16.2.86",
-	"database":"Mock",
-	"username":"mock",
-	"password":"demo01",
+	"server":"127.0.0.1",
+	"database":"test",
+	"username":"root",
+	"password":"",
 	"tables":[
 		{
-			"name":"Oseba",
-			"count":"100",
+			"name":"oseba",
+			"count":"10",
 			"attributes":[
 				{
-					"name":"Ime",
-					"type":"First Name"
-				},
+					"name":"ID_osebe",
+					"type":"Number",
+					"min":"0",
+					"max":"10"
+				}
 				{
-					"name":"Priimek",
-					"type":"Last Name"
+					"name":"Naziv",
+					"type":"Full Name"
+				}
+				{
+					"name":"Naslov1",
+					"type":"Street Address"
+				}
+				{
+					"name":"Naslov2",
+					"type":"Street Address"
 				}
 			]
-		}
+		},
 	]
 }
