@@ -1,0 +1,22 @@
+{
+	"server":"172.16.2.86",
+	"database":"Mock",
+	"username":"mock",
+	"password":"demo01",
+	"tables":[
+		{
+			"name":"Oseba",
+			"count":"100",
+			"attributes":[
+				{
+					"name":"Ime",
+					"type":"First Name"
+				},
+				{
+					"name":"Priimek",
+					"type":"Last Name"
+				}
+			]
+		}
+	]
+}

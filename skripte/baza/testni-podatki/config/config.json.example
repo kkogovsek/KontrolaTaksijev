@@ -1,0 +1,20 @@
+{
+	"server":"ip",
+	"database":"db",
+	"username":"user",
+	"password":"pass",
+	"tables":[
+		{
+			"name":"ime_tabele",
+			"count":"st_elementov",
+			"attributes":[
+				{
+					"name":"ime_atrubuta",
+					"type":"tip_mockaroo_api",
+					"parm_1":"val1",
+					"parm_2":"val2"
+				}
+			]
+		}
+	]
+}
