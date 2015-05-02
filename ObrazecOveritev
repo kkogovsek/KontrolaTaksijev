@@ -1,0 +1,117 @@
+<div class="container">
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Šifra izdajatelja</span>
+  <input type="text" class="form-control" placeholder="Šifra izdajatelja" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Zaporedna številka</span>
+  <input type="text" class="form-control" placeholder="Šifra izdajatelja" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Leto</span>
+  <input type="text" class="form-control" placeholder="Šifra izdajatelja" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Vrsta posega</span>
+  <input type="text" class="form-control" placeholder="Vrsta posega" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Naziv imetnika</span>
+  <input type="text" class="form-control" placeholder="Naziv imetnika " aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Ulica in hišna št.</span>
+  <input type="text" class="form-control" placeholder="Ulica in hišna št. " aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Poštna št. in pošta</span>
+  <input type="text" class="form-control" placeholder="Poštna št. in pošta" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Naziv izvajalca</span>
+  <input type="text" class="form-control" placeholder="Naziv imetnika " aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Ulica in hišna št.</span>
+  <input type="text" class="form-control" placeholder="Ulica in hišna št. " aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Poštna št. in pošta</span>
+  <input type="text" class="form-control" placeholder="Poštna št. in pošta" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Tip vozila</span>
+  <input type="text" class="form-control" placeholder="Tip vozila" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Št. šasije</span>
+  <input type="text" class="form-control" placeholder="Št. šasije" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Registrska številka</span>
+  <input type="text" class="form-control" placeholder="Registrska številka" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Konstanta W</span>
+  <input type="text" class="form-control" placeholder="Konstanta W" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Dimenzija pnevmatik - spredaj</span>
+  <input type="text" class="form-control" placeholder="Dimenzija pnevmatik - spredaj" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Dimenzija pnevmatik - zadaj</span>
+  <input type="text" class="form-control" placeholder="Dimenzija pnevmatik - zadaj" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Oznaka taksimetra</span>
+  <input type="text" class="form-control" placeholder="Oznaka taksimetra" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Proizvajalec</span>
+  <input type="text" class="form-control" placeholder="Proizvajalec" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Tip</span>
+  <input type="text" class="form-control" placeholder="Tip" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Serijska številka</span>
+  <input type="text" class="form-control" placeholder="Serijska številka" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Programska oprema</span>
+  <input type="text" class="form-control" placeholder="Programska oprema" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Kontrolna vsota</span>
+  <input type="text" class="form-control" placeholder="Kontrolna vsota" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Izračun voznine</span>
+  <input type="text" class="form-control" placeholder="Izračun voznine" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Naprava za prilagajanje pulzov</span>
+  <input type="text" class="form-control" placeholder="Naprava za prilagajanje pulzov" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Odgovorna oseba</span>
+  <input type="text" class="form-control" placeholder="Odgovorna oseba" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Datum posega</span>
+  <input type="date" class="form-control" placeholder="Datum posega" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Datum izdaje zapisnika</span>
+  <input type="date" class="form-control" placeholder="Datum izdaje zapisnika" aria-describedby="basic-addon1">
+</div>
+</div>
