@@ -1,0 +1,244 @@
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Oznaka taksimetra</span>
+  <input type="text" class="form-control" placeholder="Oznaka taksimetra" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Naziv izvajalca</span>
+  <input type="text" class="form-control" placeholder="Naziv imetnika " aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Ulica in hišna št.</span>
+  <input type="text" class="form-control" placeholder="Ulica in hišna št. " aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Poštna št. in pošta</span>
+  <input type="text" class="form-control" placeholder="Poštna št. in pošta" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Metoda</span>
+  <input type="text" class="form-control" placeholder="Metoda" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Kraj kontrole</span>
+  <input type="text" class="form-control" placeholder="Kraj kontrole" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Datum kontrole</span>
+  <input type="text" class="form-control" placeholder="Datum kontrole" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Datum izdaje potrdila</span>
+  <input type="text" class="form-control" placeholder="Datum izdaje potrdila" aria-describedby="basic-addon1">
+</div>
+<br>
+<!-- KLELE NEKEJ POPRAV -->
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Tip vozila</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+   <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Registrska številka</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Številka šasije</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Tip taksimetra</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+ 
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Serijska številka taksimetra</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+ 
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Programska oprema</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Ohišje taksimetra</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Segmenti prikazovalnika</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Ustreznost povezave</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Ustreznost pnevmatik</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Ustreznost tarif</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Kontrola realnega časa in datuma</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Stanje in ustreznost nalepk</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Ustreznost konstante W</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Ustreznost kontrolne vsote</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-lg-6">
+    <div class="input-group"> <br>
+      <span class="input-group-addon" id="basic-addon1">Serijska številka taksimetra</span>
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="...">
+      </span>
+    </div>
+  </div>
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Stanje elektronskega števca</span>
+  <input type="text" class="form-control" placeholder="Stanje elektronskega števca" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Dolžina kontrole časa</span>
+  <input type="text" class="form-control" placeholder="Dolžina kontrole časa" aria-describedby="basic-addon1">
+</div>
+ 
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Izmerjena dolžina kontrole časa</span>
+  <input type="text" class="form-control" placeholder="Izmerjena dolžina kontrole časa" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Pogrešek</span>
+  <input type="text" class="form-control" placeholder="Pogrešek časa" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Referenčna razdalja kontrole dolžine</span>
+  <input type="text" class="form-control" placeholder="Referenčna razdalja kontrole dolžine" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Izmerjeno št. impulzov</span>
+  <input type="text" class="form-control" placeholder="Izmerjeno št. impulzov" aria-describedby="basic-addon1">
+</div>
+ 
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Izmerjena razdalja</span>
+  <input type="text" class="form-control" placeholder="Izmerjena razdalja" aria-describedby="basic-addon1">
+</div>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Pogrešek poti</span>
+  <input type="text" class="form-control" placeholder="Pogrešek poti" aria-describedby="basic-addon1">
+</div>
+ 
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">Opombe, uporabljena oprema in rezultati</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+</div>
