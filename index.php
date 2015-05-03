@@ -9,15 +9,24 @@
 <body>
 	<?php include('sredstva/templates/navbar.php'); ?>
 	<?php 
-		switch ($_GET['site']) {
+		$site = '';
+		if(isset($_GET['site']))
+			$site = $_GET['site'];
+		switch ($site) {
 			case 'zapvgradnja':
 				
 			break;
 			case 'porkontrola':
 
 			break;
+			case 'novkontrola':
+				include 'sredstva/twig/ObrazecOverovitev.twig';
+			break;
 			case 'novposeg':
-
+				include 'sredstva/twig/ObrazecOveritev.twig';
+			break;
+			case 'novtarifa':
+				include 'sredstva/twig/ObrazecTarife.twig';
 			break;
 			default:
 				include('sredstva/templates/home.html');
