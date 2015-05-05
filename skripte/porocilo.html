@@ -1,0 +1,60 @@
+<!--
+vgradnja:
+imetnik
+pooblaščenec
+izvajalec
+serviser
+
+kontrola:
+imetnik
+izvajalec
+podpisnik
+
+-->
+<html>
+	<head>
+		<style>
+			table{
+    			border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<th>Vgradnja</th>
+			<tr>
+				<td>Imetnik: </td>
+				<td> {{vgradnja.imetnik}} </td>
+			</tr>
+			<tr>
+				<td> Pooblasceneec </td>
+				<td> {{vgradnja.pooblascenec}} </td>
+			</tr>
+			<tr>
+				<td> Izvajalec: </td>
+				<td> {{vgradnja.izvajalec}} </td>
+			</tr>
+			<tr>
+				<td> Serviser: </td>
+				<td> {{vgradnja.serviser}} </td>
+			</tr>
+		</table> <br>
+
+		<table>
+			<th>Kontrola</th>
+			<tr>
+				<td> Imetnik: </td>
+				<td> {{kontrola.imetnik}} </td>
+			</tr>
+			<tr>
+				<td>Izvajalec: </td>
+				<td> {{kontrola.izvajalec}} </td>
+			</tr>
+			<tr>
+				<td>Podpisnik: </td>
+				<td> {{kontrola.podpisnik}} </td>
+			</tr>
+		</table>
+	</body>
+
+</html>
