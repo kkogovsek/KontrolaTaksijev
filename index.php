@@ -34,10 +34,10 @@
 				novKontrola();
 			break;
 			case 'novposeg':
-				echo $twig->render('ObOver', array());
+				novPoseg();
 			break;
 			case 'novtarifa':
-				echo $twig->render('ObTar', array());
+				novaTarifa();
 			break;
 			case 'login':
 				if($_SERVER['REQUEST_METHOD'] == 'POST') {

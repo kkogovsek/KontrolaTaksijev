@@ -17,7 +17,8 @@
 			global $conn;
 			$oznake = array();
 			$result = $conn->query("SELECT Oznaka, Tip, Serijska FROM taksimeter;");
-			while( $row = mysql_fetch_assoc( $result)){
+
+			while( $row = $result->fetch_row()){
 			    $oznake[] = $row;
 			}
 			return $oznake;
