@@ -1,10 +1,46 @@
-<div class="container" id="obrazec">
+<form action="" class="container" id="novTaksimeterForm" method="POST">
+  
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">Oznaka</span>
+    <input type="text" class="form-control" placeholder="Oznaka taksimetra" aria-describedby="basic-addon1" name="Oznaka">
+  </div>
+
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">Tip</span>
+    <input type="text" class="form-control" placeholder="Tip" aria-describedby="basic-addon1" name="Tip">
+  </div>
+
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">Serijska</span>
+    <input type="text" class="form-control" placeholder="Serijska" aria-describedby="basic-addon1" name="Serijska">
+  </div>
+
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">Program</span>
+    <input type="text" class="form-control" placeholder="Program" aria-describedby="basic-addon1" name="Program">
+  </div>
+
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">Prilagajanje impulzov</span>
+    <input type="text" class="form-control" placeholder="Prilagajanje impulzov" aria-describedby="basic-addon1" name="Prilagajanje_impulzov">
+  </div>
+
+  <div class="input-group">
+    <span class="input-group-addon" id="basic-addon1">Izračun</span>
+    <input type="text" class="form-control" placeholder="Izračun" aria-describedby="basic-addon1" name="Izracun">
+  </div>
+
+  <button class="btn btn-primary" type="sumbmit">Dodaj taksimeter</button>  
+</form>
+
+<form class="container" id="obrazec" method="POST">
   <select name="oznaka" id="" class="selectpicker" data-live-search="true">
     {% for oznaka in oznake %}
         <option value="{{oznaka.oznaka}}">{{oznaka.oznaka}}, {{oznaka.tip}}, {{oznaka.serijska}}</option>
     {% endfor %}
   </select>
   <button class="btn btn-primary" id="novTaksimeter" type="button">Nov taksimeter</button>
+
   <div class="input-group">
     <span class="input-group-addon" id="basic-addon1">Šifra izdajatelja</span>
     <input type="text" class="form-control" placeholder="Šifra izdajatelja" aria-describedby="basic-addon1">
@@ -120,11 +156,13 @@
     <span class="input-group-addon" id="basic-addon1">Datum izdaje zapisnika</span>
     <input type="date" class="form-control" placeholder="Datum izdaje zapisnika" aria-describedby="basic-addon1">
   </div>
-</div>
+</form>
 
 <script type="text/javascript">
+  $('#novTaksimeterForm').hide();
   $('.selectpicker').selectpicker();
   $('#novTaksimeter').click( function() {
-    alert('test');
+    $('#novTaksimeterForm').show();
+    $('#obrazec').hide();
   });
 </script>

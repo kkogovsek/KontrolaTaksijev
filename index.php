@@ -6,7 +6,6 @@
 	include('skripte/modeli/index.php');
 	include('skripte/twig.php');
 	include('skripte/twig/index.php');
-	var_dump($_SESSION);
  ?>
 <!DOCTYPE html>
 <html lang="en">
