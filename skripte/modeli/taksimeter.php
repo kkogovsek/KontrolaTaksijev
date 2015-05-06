@@ -3,7 +3,7 @@
 		public function novTaksimeter($oznaka, $tip, $serijska, $program, $prilagajanje_impulzov, $izracun) {
 			global $conn;
 
-			$query = "INSERT INTO `kontrola-taksijev`.`taksimeter` (`Oznaka`, `Tip`, `Serijska`, `Program`, `Prilagajanje_impulzov`, `Izracun`) VALUES ($oznaka, $tip, $serijska, $program, $prilagajanje_impulzov, $izracun);"
+			$query = "INSERT INTO `kontrola-taksijev`.`taksimeter` (`Oznaka`, `Tip`, `Serijska`, `Program`, `Prilagajanje_impulzov`, `Izracun`) VALUES ($oznaka, $tip, $serijska, $program, $prilagajanje_impulzov, $izracun);";
 
 			$conn->begin_transaction();
 			$response = $conn->query($query);

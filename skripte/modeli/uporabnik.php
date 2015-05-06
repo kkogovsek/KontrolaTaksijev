@@ -1,4 +1,11 @@
 <?php
+/**
+ * Pravice - biti
+ * 1: Servis
+ * 2: Kontrola
+ * 3: Ministrstvo
+ * 4: Admin
+ */
 class Uporabnik {
 	public $ime;
 	public $geslo;
@@ -36,24 +43,38 @@ class Uporabnik {
 		$conn->begin_transaction();
 		$response = $conn->query($query);
 		if($response === true) {
-			$_SESSION['user'] = $ime;
+			$_SESSION['user'] = array(
+				'ime' => $ime,
+				'pravice' => $pravice
+			);
 		}
 		else {
 			die("ERROR ADDING USER, PLEASE TRY AGAIN");
 		}
 		$conn->commit();
 	}
+	
 	public function login($ime, $geslo) {
 		global $conn;
 
-		$query = "SELECT geslo FROM uporabnik WHERE ime='$ime';";
+		$query = "SELECT geslo, dovoljenja FROM uporabnik WHERE ime='$ime';";
 		
 		$result = $conn->query($query);
 		$row = $result->fetch_assoc();
 		if($row['geslo'] == sha1($geslo)) {
-			$_SESSION['user'] = $ime;
+			$_SESSION['user'] = array(
+				'ime' => $ime,
+				'pravice' => $row['dovoljenja']
+			);
 			return true;
 		}
 		return false;
+	}
+
+	function __construct($name, $grants) {
+		if(isset($name) && isset($grants)) {
+			$ime = $name;
+			$dovoljenja = $grants;
+		}
 	}
 }

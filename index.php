@@ -1,8 +1,11 @@
 <?php 
+	//error_reporting(E_ERROR | E_PARSE | E_NOTICE);
 	session_start();
 	include('skripte/konfiguracija.php');
 	include('skripte/baza/baza.php');
 	include('skripte/modeli/index.php');
+	include('skripte/twig.php');
+	include('skripte/twig/index.php');
 	var_dump($_SESSION);
  ?>
 <!DOCTYPE html>
@@ -28,13 +31,13 @@
 
 			break;
 			case 'novkontrola':
-				include 'sredstva/twig/ObrazecOverovitev.twig';
+				novKontrola();
 			break;
 			case 'novposeg':
-				include 'sredstva/twig/ObrazecOveritev.twig';
+				echo $twig->render('ObOver', array());
 			break;
 			case 'novtarifa':
-				include 'sredstva/twig/ObrazecTarife.twig';
+				echo $twig->render('ObTar', array());
 			break;
 			case 'login':
 				if($_SERVER['REQUEST_METHOD'] == 'POST') {

@@ -1,2 +1,13 @@
 {
+    "name": "kkogovsek/taksi",
+    "require": {
+        "twig/twig": "^1.18"
+    },
+    "authors": [
+        {
+            "name": "Klemen Kogovsek",
+            "email": "klemen.kogovsek1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
 }
