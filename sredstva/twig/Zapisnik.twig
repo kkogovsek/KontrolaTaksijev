@@ -1,0 +1,99 @@
+<!--
+stevilka zapisnika:
+	imetnik
+	zapst
+	leto
+imetnik
+vozilo
+tip vozila
+dimenzije pneomatik
+ostalo
+indikatorji:
+	serijska stevilka
+	registracija vozila
+	davčna stevilka
+tarifa:[
+		{
+				tarifa
+				startnina
+				cena km
+				spominska lokacija
+				zamik v km
+				spominska lokacija
+				čakalana ura
+				spominska lokacija
+				čas. zamik - sek
+			}
+		]
+cenik
+
+-->
+
+<table>
+	<th>Zapisnik</th>
+	<tr>
+		<td>Stevilka zapisnika:<td>
+		<td>{{zapisnik.imenik}}/{{zapisnik.zapst}}/{{zapisnik.leto}}</td>
+	</tr>
+	<tr>
+		<td>Imetnik:</td>
+		<td>{{zapisnik.imetnik}}</td>
+	</tr>
+	<tr>
+		<td>Vozilo:</td>
+		<td>{{zapisnik.vozilo}}</td>
+	</tr>
+	<tr>
+		<td>Tip vozila: </td>
+		<td>{{zapisnik.tipvozila}}</td>
+	</tr>
+	<tr>
+		<td>Dimenzije pneomatik: </td>
+		<td>{{zapisnik.dimenzije}}</td>
+	</tr>
+	<tr>
+		<td>Ostalo: </td>
+		<td>{{zapisnik.ostalo}}</td>
+	</tr>
+	<tr>
+		<td>Identifikatorji: </td>
+		<td>{{zapisnik.serijska}}</td>
+		<td>{{zapisnik.registracija}}</td>
+		<td>{{zapisnik.davcna}}</td>
+		<td>{{zapisnik.stzapisnika}}</td>
+	</tr>
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td>Tarifa</td>
+					<td>Startnina v EUR</td>
+					<td>Cena/km v EUR</td>
+					<td>Spominska lokacija</td>
+					<td>Zamik v km</td>
+					<td>Spominska lokacija</td>
+					<td>Cakalna ura cena</td>
+					<td>Spominska lokacija</td>
+					<td>cas. zamik - sek</td>
+				</tr>
+					{% for user in users %}
+    				<tr>
+    					<td>Tarifa</td>
+    					<td>{{tarifa.startnina}}</td>
+    					<td>{{tarifa.cenakm}}</td>
+    					<td>{{tarifa.lokacija}}</td>
+    					<td>{{tarifa.zamik}}</td>
+    					<td>{{tarifa.lokacija}}</td>
+    					<td>{{tarifa.cakalanaura}}</td>
+    					<td>{{tarifa.lokacija}}</td>
+    					<td>{{tarifa.caszamik}}</td>
+    				</tr>
+					{% endfor %}
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td>Ceniki: </td>
+		<td>{{zapisnik.cenik}}</td>
+	</tr>
+</table>
