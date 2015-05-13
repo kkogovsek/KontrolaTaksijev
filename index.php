@@ -33,7 +33,17 @@
 				novKontrola();
 			break;
 			case 'novposeg':
-				novPoseg();
+				if($_SERVER['REQUEST_METHOD'] == 'POST') {
+					if($_POST['form'] == 'novtaksimeter') {
+						$taksi = new Taksimeter();
+						
+						$taksi->novTaksimeter($_POST['Oznaka'], $_POST['Tip'], $_POST['Serijska'], $_POST['Program'], $_POST['Prilagajanje_impulzov'], $_POST['Izracun']);	
+					}				
+					//header('Location: ?site=novposeg'); 
+					//exit();
+				}
+				else
+					novPoseg();
 			break;
 			case 'novtarifa':
 				novaTarifa();
