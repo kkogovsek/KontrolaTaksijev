@@ -25,3 +25,323 @@ serviser
 		<td> {{vgradnja.serviser}} </td>
 	</tr>
 </table>
+
+<table>
+	<tr>
+		<td>Oznaka taksimetra</td>
+		<td>{{oznaka}}</td>
+	</tr>
+	<tr>
+		<td>Naziv izvajalec</td>
+		<td>{{kontrolor}}</td>
+	</tr>
+	<tr>
+		<td>Ulica in hipna št.</td>
+		<td>{{naslov1}}</td>
+	</tr>
+	<tr>
+		<td>Poštna št. in pošta</td>
+		<td>{{naslov2}}</td>
+	</tr>
+	<tr>
+		<td>Metoda</td>
+		<td>{{metoda}}</td>
+	</tr>
+	<tr>
+		<td>Kraj kontrole</td>
+		<td>{{kraj_kontrole}}</td>
+	</tr>
+	<tr>
+		<td>Datum kontrole</td>
+		<td>{{datum_kontrole}}</td>
+	</tr>
+	<tr>
+		<td>Datum izdaje potrdila</td>
+		<td>{{datum_izdaje}}</td>
+	</tr>
+	<tr>
+		<td>Tip vozila</td>
+		<td>
+			{% if  %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Registrska številka</td>
+		<td>
+			{% if tip_vozila %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Številka šasije</td>
+		<td>
+			{% if stevilka_sasije %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Tip taksimetra</td>
+		<td>
+			{% if tip_kaskimetra %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Serijska številka taksimetra</td>
+		<td>
+			{% if serijska_stevilka %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Programska oprema</td>
+		<td>
+			{% if program %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Ohije taskimetra</td>
+		<td>
+			{% if ohišje %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Segmenti prikazovalnika</td>
+		<td>
+			{% if segment %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Ustreznost povezave</td>
+		<td>
+			{% if povezava %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Ustreznost pneomatik</td>
+		<td>
+			{% pneomatike %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Ustreznost tarif</td>
+		<td>
+			{% if tarife %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Kontrola realnega časa in datuma</td>
+		<td>
+			{% if realni_cas %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Stanje in ustreznost nalepk</td>
+		<td>
+			{% if nalepke %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Ustreznost konstante W</td>
+		<td>
+			{% if konstantaW %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Ustreznost kontrolne vsote</td>
+		<td>
+			{% if kontrolna %}
+				Vredu
+			{% else %}
+				Ni vredu
+			{% endif %}
+		</td>
+	</tr>
+	<tr>
+		<td>Stanje elektronskega števca</td>
+		<td>{{stanje_stevca}}</td>
+	</tr>
+	<tr>
+		<td>Dolžina kontrole časa</td>
+		<td>{{cas_castesta}}</td>
+	</tr>
+	<tr>
+		<td>Izmerjena dolžina kontrole časa</td>
+		<td>{{cas_izmerjen}}</td>
+	</tr>
+	<tr>
+		<td>pogrešek</td>
+		<td>{{cas_pogresek}}</td>
+	</tr>
+	<tr>
+		<td>Referenčna razdalja kontrole dolžine</td>
+		<td>{{pot_razdalja}}</td>
+	</tr>
+	<tr>
+		<td>Izmerjeno št. impulzov</td>
+		<td>{{poz_impulzi}}</td>
+	</tr>
+	<tr>
+		<td>Izmerjena razdalja</td>
+		<td>{{pot_izmerjen}}</td>
+	</tr>
+	<tr>
+		<td>Opombe, uporabljena oprema in rezultati</td>
+		<td>{{opombe}}</td>
+	</tr>
+</table>
+
+
+<table>
+	<tr>
+		<td>Šifra izdajatelja</td>
+		<td>{{izdajatelj}}</td>
+	</tr>
+	<tr>
+		<td>Zaporedna številka</td>
+		<td>{{zaporedna}}</td>
+	</tr>
+	<tr>
+		<td>Leto</td>
+		<td>{{leto}}</td>
+	</tr>
+	<tr>
+		<td>Vrsta posega</td>
+		<td>vrsta_posega</td>
+	</tr>
+	<tr>
+		<td>Naziv imetnika</td>
+		<td>{{naziv_imetnika}}</td>
+	</tr>
+	<tr>
+		<td>Ulica in hišna št.</td>
+		<td>{{naslov1_imetnika}}</td>
+	</tr>
+	<tr>
+		<td>Poštna št. in pošta</td>
+		<td>{{naslov2_imetnika}}</td>
+	</tr>
+	<tr>
+		<td>Naziv izvajalca</td>
+		<td>{{naziv_izvajalec}}</td>
+	</tr>
+	<tr>
+		<td>Ulica in hišna št.</td>
+		<td>{{naslov1_izvajalec}}</td>
+	</tr>
+	<tr>
+		<td>Poštna št. in pošta</td>
+		<td>{{naslov2_izvajalec}}</td>
+	</tr>
+	<tr>
+		<td>Tip vozila</td>
+		<td>{{tip_vozila}}</td>
+	</tr>
+	<tr>
+		<td>Št. šasije</td>
+		<td>{{sasija}}</td>
+	</tr>
+	<tr>
+		<td>Registrska številka</td>
+		<td>{{registrska}}</td>
+	</tr>
+	<tr>
+		<td>Konstanta W</td>
+		<td>{{registrska}}</td>
+	</tr>
+	<tr>
+		<td>Dimenzija pneomatik - spredaj</td>
+		<td>{{pneomatike_spredaj}}</td>
+	</tr>
+	<tr>
+		<td>Oznaka taksimetra</td>
+		<td>{{oznaka_taksimetra}}</td>
+	</tr>
+	<tr>
+		<td>Tip</td>
+		<td>{{tip_taksimetra}}</td>
+	</tr>
+	<tr>
+		<td>Serijska številka</td>
+		<td>{{serijska_taksimetra}}</td>
+	</tr>
+	<tr>
+		<td>Programska oprema</td>
+		<td>{{program_taksimeter}}</td>
+	</tr>
+	<tr>
+		<td>Izračun voznine</td>
+		<td>{{izracun_voznine}}</td>
+	</tr>
+	<tr>
+		<td>Naprava za prilagajanje impulzov</td>
+		<td>{{impulzi}}</td>
+	</tr>
+	<tr>
+		<td>Dimenzija pneomatik - zadaj</td>
+	</tr>
+	<tr>
+		<td>Odgovorna oseba</td>
+		<td>{{odgovorna_oseba}}</td>
+	</tr>
+	<tr>
+		<td>Datum posega</td>
+		<td>{{datum_posega}}</td>
+	</tr>
+	<tr>
+		<td>Datum izdaje zapisnika</td>
+		<td>{{datum_izdaje}}</td>
+	</tr>
+</table>
